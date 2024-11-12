@@ -15,7 +15,7 @@ This is a Node.js API cluster with two replica sets that implements a queueing s
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/node-api-cluster.git
+   git clone https://github.com/adityadixit07/node-multiprocess-api-with-rate-limit.git
    ```
 2. Navigate to the project directory:
    ```
@@ -70,19 +70,3 @@ The project is structured into the following modules:
 1. **taskProcessor.js**: Handles the task processing logic, including the `task` function and the log file operations.
 2. **rateLimiter.js**: Handles the rate limiting and task queueing logic.
 3. **server.js**: Serves as the main entry point and coordinates the interactions between the other modules.
-
-This modular structure improves the overall clarity, maintainability, and testability of the codebase.
-
-## Evaluation Criteria
-
-This implementation was evaluated based on the following criteria:
-
-1. Correct implementation of rate limiting and task queueing mechanisms.
-2. Proper handling of asynchronous operations and edge cases.
-3. Efficiency and scalability of the solution.
-4. Clarity and organization of the codebase.
-5. Documentation quality and adherence to best practices.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
